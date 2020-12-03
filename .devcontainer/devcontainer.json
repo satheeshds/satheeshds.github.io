@@ -29,7 +29,8 @@
         "aeschli.vscode-css-formatter",
         // editing
         "streetsidesoftware.code-spell-checker",
-        "ms-vscode.wordcount"
+		"ms-vscode.wordcount",
+		"rohgarg.jekyll-post"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
