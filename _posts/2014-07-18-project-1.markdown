@@ -1,0 +1,10 @@
+---
+layout: post
+title:  Project 1
+date:   2019-07-22 09:44:12 +0300
+category: Web Development
+description: Use this area of the page to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.
+---
+
+**Hello world**, this is my first Jekyll blog post.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus eget eros eu vulputate. Ut commodo molestie condimentum. Donec condimentum id ipsum quis dictum. Sed quis euismod dolor, vitae vulputate elit. Ut imperdiet viverra dolor, sit amet posuere enim condimentum quis.
+I hope you like it!

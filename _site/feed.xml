@@ -1,6 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="https://satheeshds.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://satheeshds.github.io/" rel="alternate" type="text/html" /><updated>2019-07-23T23:56:33+03:00</updated><id>https://satheeshds.github.io/feed.xml</id><title type="html">Satheesh Davidson</title><subtitle>Thoughts on coding.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="https://satheeshds.github.io/jekyll/update/2019/07/19/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2019-07-19T09:44:12+03:00</published><updated>2019-07-19T09:44:12+03:00</updated><id>https://satheeshds.github.io/jekyll/update/2019/07/19/welcome-to-jekyll</id><content type="html" xml:base="https://satheeshds.github.io/jekyll/update/2019/07/19/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?>
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom" >
+  <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
+  <link href="https://satheeshds.github.io/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://satheeshds.github.io/" rel="alternate" type="text/html" />
+  <updated>2021-05-23T09:28:48+03:00</updated>
+  <id>https://satheeshds.github.io/</id>
+
+  
+    <title type="html">Satheesh Davidson</title>
+  
+
+  
+    <subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle>
+  
+
+  
+
+  
+  
+    <entry>
+      <title type="html">Project 1</title>
+      <link href="https://satheeshds.github.io/web%20development/2019/07/22/project-1/" rel="alternate" type="text/html" title="Project 1" />
+      <published>2019-07-22T09:44:12+03:00</published>
+      <updated>2019-07-22T09:44:12+03:00</updated>
+      <id>https://satheeshds.github.io/web%20development/2019/07/22/project-1</id>
+      <content type="html" xml:base="https://satheeshds.github.io/web%20development/2019/07/22/project-1/">&lt;p&gt;&lt;strong&gt;Hello world&lt;/strong&gt;, this is my first Jekyll blog post.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus eget eros eu vulputate. Ut commodo molestie condimentum. Donec condimentum id ipsum quis dictum. Sed quis euismod dolor, vitae vulputate elit. Ut imperdiet viverra dolor, sit amet posuere enim condimentum quis.
+I hope you like it!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html">Hello world, this is my first Jekyll blog post.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus eget eros eu vulputate. Ut commodo molestie condimentum. Donec condimentum id ipsum quis dictum. Sed quis euismod dolor, vitae vulputate elit. Ut imperdiet viverra dolor, sit amet posuere enim condimentum quis. I hope you like it!</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Welcome to Jekyll!</title>
+      <link href="https://satheeshds.github.io/jekyll/update/2019/07/19/sample/" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
+      <published>2019-07-19T09:44:12+03:00</published>
+      <updated>2019-07-19T09:44:12+03:00</updated>
+      <id>https://satheeshds.github.io/jekyll/update/2019/07/19/sample</id>
+      <content type="html" xml:base="https://satheeshds.github.io/jekyll/update/2019/07/19/sample/">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
 
 &lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
 
@@ -10,4 +72,209 @@
 &lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary></entry></feed>
+&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+
+      
+
+      
+        <summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 2</title>
+      <link href="https://satheeshds.github.io/web%20development/2014/07/17/project-2/" rel="alternate" type="text/html" title="Project 2" />
+      <published>2014-07-17T00:00:00+03:00</published>
+      <updated>2014-07-17T00:00:00+03:00</updated>
+      <id>https://satheeshds.github.io/web%20development/2014/07/17/project-2</id>
+      <content type="html" xml:base="https://satheeshds.github.io/web%20development/2014/07/17/project-2/">&lt;p&gt;&lt;strong&gt;Hello world&lt;/strong&gt;, Nunc pellentesque rhoncus lectus, ut consectetur eros suscipit non. Proin quis odio laoreet, gravida tellus in, tristique massa. Aenean quis enim neque. Phasellus non fringilla eros. Donec convallis dapibus felis eu blandit. Ut vel vehicula quam. Sed in purus sit amet dui cursus rutrum id et odio. Maecenas accumsan, nunc vel tristique tristique, orci turpis commodo mauris, a luctus lectus massa consequat justo.&lt;/p&gt;
+
+&lt;p&gt;I hope you like it!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html">Hello world, Nunc pellentesque rhoncus lectus, ut consectetur eros suscipit non. Proin quis odio laoreet, gravida tellus in, tristique massa. Aenean quis enim neque. Phasellus non fringilla eros. Donec convallis dapibus felis eu blandit. Ut vel vehicula quam. Sed in purus sit amet dui cursus rutrum id et odio. Maecenas accumsan, nunc vel tristique tristique, orci turpis commodo mauris, a luctus lectus massa consequat justo.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 3</title>
+      <link href="https://satheeshds.github.io/web%20development/2014/07/16/project-3/" rel="alternate" type="text/html" title="Project 3" />
+      <published>2014-07-16T00:00:00+03:00</published>
+      <updated>2014-07-16T00:00:00+03:00</updated>
+      <id>https://satheeshds.github.io/web%20development/2014/07/16/project-3</id>
+      <content type="html" xml:base="https://satheeshds.github.io/web%20development/2014/07/16/project-3/">&lt;p&gt;&lt;strong&gt;Hello world&lt;/strong&gt;, In suscipit nibh felis, vel pharetra odio mattis ut. Mauris malesuada purus quis diam ornare, vestibulum cursus massa vulputate. Morbi non lectus vel elit suscipit vulputate. Suspendisse eu consequat diam. Etiam laoreet varius nibh. Nullam dictum sagittis ex sit amet dapibus. Maecenas varius molestie mauris, vel feugiat justo pellentesque a.&lt;/p&gt;
+
+&lt;p&gt;I hope you like it!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html">Hello world, In suscipit nibh felis, vel pharetra odio mattis ut. Mauris malesuada purus quis diam ornare, vestibulum cursus massa vulputate. Morbi non lectus vel elit suscipit vulputate. Suspendisse eu consequat diam. Etiam laoreet varius nibh. Nullam dictum sagittis ex sit amet dapibus. Maecenas varius molestie mauris, vel feugiat justo pellentesque a.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 4</title>
+      <link href="https://satheeshds.github.io/web%20development/2014/07/15/project-4/" rel="alternate" type="text/html" title="Project 4" />
+      <published>2014-07-15T00:00:00+03:00</published>
+      <updated>2014-07-15T00:00:00+03:00</updated>
+      <id>https://satheeshds.github.io/web%20development/2014/07/15/project-4</id>
+      <content type="html" xml:base="https://satheeshds.github.io/web%20development/2014/07/15/project-4/">&lt;p&gt;&lt;strong&gt;Hello world&lt;/strong&gt;, Morbi ultrices, lorem et ornare bibendum, augue augue sodales elit, a tristique ligula enim et eros. Integer mauris elit, pharetra eu lectus a, varius pulvinar lorem. Curabitur hendrerit elementum tellus ac elementum. Integer vitae augue in enim sagittis posuere a eu justo. Phasellus facilisis neque id nisl accumsan, eu sollicitudin ex tempor. In rhoncus dolor at odio ornare, in mollis dolor commodo.&lt;/p&gt;
+
+&lt;p&gt;I hope you like it!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html">Hello world, Morbi ultrices, lorem et ornare bibendum, augue augue sodales elit, a tristique ligula enim et eros. Integer mauris elit, pharetra eu lectus a, varius pulvinar lorem. Curabitur hendrerit elementum tellus ac elementum. Integer vitae augue in enim sagittis posuere a eu justo. Phasellus facilisis neque id nisl accumsan, eu sollicitudin ex tempor. In rhoncus dolor at odio ornare, in mollis dolor commodo.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 6</title>
+      <link href="https://satheeshds.github.io/web%20development/2014/07/15/project-6/" rel="alternate" type="text/html" title="Project 6" />
+      <published>2014-07-15T00:00:00+03:00</published>
+      <updated>2014-07-15T00:00:00+03:00</updated>
+      <id>https://satheeshds.github.io/web%20development/2014/07/15/project-6</id>
+      <content type="html" xml:base="https://satheeshds.github.io/web%20development/2014/07/15/project-6/">&lt;p&gt;&lt;strong&gt;Hello world&lt;/strong&gt;, this is my first Jekyll blog post. I hope you like it!
+Morbi vitae mauris eget tellus auctor consequat. Nulla facilisi. Etiam eu lorem id est eleifend pretium. Curabitur fermentum est velit. Vivamus hendrerit faucibus aliquam. Nunc tincidunt varius velit, in molestie ante sodales vitae. Morbi pulvinar orci vel nibh bibendum luctus. Aliquam erat volutpat. Morbi accumsan metus in ipsum semper sagittis.&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html">Hello world, this is my first Jekyll blog post. I hope you like it! Morbi vitae mauris eget tellus auctor consequat. Nulla facilisi. Etiam eu lorem id est eleifend pretium. Curabitur fermentum est velit. Vivamus hendrerit faucibus aliquam. Nunc tincidunt varius velit, in molestie ante sodales vitae. Morbi pulvinar orci vel nibh bibendum luctus. Aliquam erat volutpat. Morbi accumsan metus in ipsum semper sagittis.</summary>
+      
+
+      
+      
+    </entry>
+  
+    <entry>
+      <title type="html">Project 5</title>
+      <link href="https://satheeshds.github.io/web%20development/2014/07/14/project-5/" rel="alternate" type="text/html" title="Project 5" />
+      <published>2014-07-14T00:00:00+03:00</published>
+      <updated>2014-07-14T00:00:00+03:00</updated>
+      <id>https://satheeshds.github.io/web%20development/2014/07/14/project-5</id>
+      <content type="html" xml:base="https://satheeshds.github.io/web%20development/2014/07/14/project-5/">&lt;p&gt;&lt;strong&gt;Hello world&lt;/strong&gt;, Morbi vitae mauris eget tellus auctor consequat. Nulla facilisi. Etiam eu lorem id est eleifend pretium. Curabitur fermentum est velit. Vivamus hendrerit faucibus aliquam. Nunc tincidunt varius velit, in molestie ante sodales vitae. Morbi pulvinar orci vel nibh bibendum luctus. Aliquam erat volutpat. Morbi accumsan metus in ipsum semper sagittis.&lt;/p&gt;
+
+&lt;p&gt;I hope you like it!&lt;/p&gt;</content>
+
+      
+      
+      
+      
+      
+
+      <author>
+          <name></name>
+        
+        
+      </author>
+
+      
+        <category term="Web Development" />
+      
+
+      
+
+      
+        <summary type="html">Hello world, Morbi vitae mauris eget tellus auctor consequat. Nulla facilisi. Etiam eu lorem id est eleifend pretium. Curabitur fermentum est velit. Vivamus hendrerit faucibus aliquam. Nunc tincidunt varius velit, in molestie ante sodales vitae. Morbi pulvinar orci vel nibh bibendum luctus. Aliquam erat volutpat. Morbi accumsan metus in ipsum semper sagittis.</summary>
+      
+
+      
+      
+    </entry>
+  
+</feed>
