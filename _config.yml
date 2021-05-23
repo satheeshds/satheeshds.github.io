@@ -1,46 +1,60 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Satheesh Davidson
+header: Senior Software Engineer
 email: davidsonsatheesh@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Thoughts on coding.
-baseurl: "" # the subpath of your site, e.g. /blog
 url: https://satheeshds.github.io
-twitter_username: satheeshdavidso
-github_username:  satheeshds
+description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+keywords: "your keywords, separated by commas"
+skills: ".NetCore - Cloud - SQL - PostgreSql"
+meta_author: Satheesh Davidson
+
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 18bc9c #80B3FF
+  primary-rgb: "24,288,156" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+  dark: 1a242f
+
+# Footer settings
+footer:
+  copyright: Satheesh Davidson
+  location: Contact
+  social: Get in touch with me
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: twitter
+    url: https://twitter.com/satheeshdavidso
+  - title: facebook
+    url:
+  - title: stack-overflow
+    url: https://stackoverflow.com/users/story/6838875
+  - title: linkedin
+    url: https://www.linkedin.com/in/satheesh-davidson-3286a167
+  - title: github
+    url: https://github.com/satheeshds
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: davisonsatheesh@gmail.com
+  - line: +971 561926083
+
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-paginate
+permalink: pretty
 
-#disqus
-disqus:
-  shortname: satheeshdsgithubpage
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+#for posts
+defaults:
+  - scope:
+      path: "posts"
+      type: "posts"
+    values:
+      permalink: ""
