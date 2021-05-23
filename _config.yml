@@ -58,3 +58,7 @@ defaults:
       type: "posts"
     values:
       permalink: ""
+
+#disqus
+disqus:
+  shortname: satheeshdsgithubpage
