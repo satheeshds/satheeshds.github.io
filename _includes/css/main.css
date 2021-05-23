@@ -178,7 +178,7 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 60px 0;
 }
 
 section h2 {
@@ -542,4 +542,16 @@ footer .footer-below {
                         -ms-flex: 1 1 auto;
                         flex: 1 1 auto;
                         padding: 1.25rem;
+                    }
+
+                    .bg-success{
+                        background-color: #28a745!important;
+                    }
+
+                    .bg-info{
+                        background-color: #17a2b8!important;
+                    }
+
+                    .bg-warning{
+                        background-color: #ffc107!important;
                     }
