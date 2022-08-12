@@ -60,3 +60,5 @@ defaults:
 #disqus
 disqus:
   shortname: satheeshdsgithubpage
+
+theme: jekyll-theme-hacker
