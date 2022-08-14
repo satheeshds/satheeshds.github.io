@@ -10,7 +10,11 @@ meta_author: Satheesh Davidson
 
 theme: minima
 
-# Google webmaster tools
+#disqus
+disqus:
+  shortname: satheeshdsgithubpage
+
+  # Google webmaster tools
 google_verify:
 
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
@@ -54,11 +58,8 @@ permalink: pretty
 defaults:
   - scope:
       path: "posts"
-      type: "posts"
-    values:
-      permalink: ""
+      #      type: "posts"
+      #values:
+      #permalink: ""
 
-#disqus
-disqus:
-  shortname: satheeshdsgithubpage
 

@@ -4,6 +4,7 @@ title: Home media server with k8s
 date: 2021-05-08 10:45 +0400
 category: 
 author:
+comments: true
 tags: [k8s, Home media server]
 summary: This post is to discuss how we can create home server with k8s
 ---
