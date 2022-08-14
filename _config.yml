@@ -8,6 +8,8 @@ keywords: "your keywords, separated by commas"
 #skills: ".NetCore - Cloud - SQL - PostgreSql"
 meta_author: Satheesh Davidson
 
+theme: minima
+
 # Google webmaster tools
 google_verify:
 
