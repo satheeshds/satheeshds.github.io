@@ -54,12 +54,3 @@ address:
 markdown: kramdown
 permalink: pretty
 
-#for posts
-defaults:
-  - scope:
-      path: "posts"
-      #      type: "posts"
-      #values:
-      #permalink: ""
-
-
