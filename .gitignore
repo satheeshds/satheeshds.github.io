@@ -1,9 +1,8 @@
 .DS_Store
 
-_site
-.sass-cache
-.jekyll-cache
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-_site/feed.xml
-_site/index.html
-Gemfile.lock
+.bundle/
+vendor/
