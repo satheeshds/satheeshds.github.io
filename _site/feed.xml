@@ -4,7 +4,7 @@
   <generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator>
   <link href="https://satheeshds.github.io/feed.xml" rel="self" type="application/atom+xml" />
   <link href="https://satheeshds.github.io/" rel="alternate" type="text/html" />
-  <updated>2022-08-15T10:59:08+04:00</updated>
+  <updated>2023-02-28T15:20:23+05:30</updated>
   <id>https://satheeshds.github.io/</id>
 
   
@@ -22,8 +22,8 @@
     <entry>
       <title type="html">Home media server with k8s</title>
       <link href="https://satheeshds.github.io/coding/2021/05/08/home-media-server-with-k8s/" rel="alternate" type="text/html" title="Home media server with k8s" />
-      <published>2021-05-08T10:45:00+04:00</published>
-      <updated>2021-05-08T10:45:00+04:00</updated>
+      <published>2021-05-08T12:15:00+05:30</published>
+      <updated>2021-05-08T12:15:00+05:30</updated>
       <id>https://satheeshds.github.io/coding/2021/05/08/home-media-server-with-k8s</id>
       <content type="html" xml:base="https://satheeshds.github.io/coding/2021/05/08/home-media-server-with-k8s/">&lt;p&gt;Loved to have exclusive media server for my home, previously used Emby application for the purpose and pretty impressed about it. I had NUC device dedicated to that and with the help of docker i have somehow managed to run the application, but the challenge was using graphics card for Emby, Since NUC have small form factor it does not well support adding graphics card. So i decided to give a chance to device abstraction by using k8s. My thought is create a cluster with NUC as master and join personal laptop to it, which has graphics card, And configure the emby application to have more affinity towards graphics card machine, while other supporting software on NUC. I know managing a k8s cluster for media server is a over kill, but who don’t loves having a challenge and learning opportunity.&lt;/p&gt;
 
@@ -195,15 +195,16 @@
   
     <entry>
       <title type="html">Dapper and Jsonb</title>
-      <link href="https://satheeshds.github.io/coding/2020/12/03/dapper-and-jsonb/" rel="alternate" type="text/html" title="Dapper and Jsonb" />
-      <published>2020-12-03T13:10:00+04:00</published>
-      <updated>2020-12-03T13:10:00+04:00</updated>
-      <id>https://satheeshds.github.io/coding/2020/12/03/dapper-and-jsonb</id>
-      <content type="html" xml:base="https://satheeshds.github.io/coding/2020/12/03/dapper-and-jsonb/">&lt;p&gt;This post is to discuss how we can add PostgreSql Jsonb support over dapper ORM.&lt;/p&gt;
+      <link href="https://satheeshds.github.io/coding/tech/2020/12/03/dapper-and-jsonb/" rel="alternate" type="text/html" title="Dapper and Jsonb" />
+      <published>2020-12-03T13:10:00+05:30</published>
+      <updated>2020-12-03T13:10:00+05:30</updated>
+      <id>https://satheeshds.github.io/coding/tech/2020/12/03/dapper-and-jsonb</id>
+      <content type="html" xml:base="https://satheeshds.github.io/coding/tech/2020/12/03/dapper-and-jsonb/">&lt;p&gt;This post is to discuss how we can add PostgreSql Jsonb support over dapper ORM.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://dapper-tutorial.net/dapper&quot;&gt;Dapper ORM&lt;/a&gt; is an object-relational mapping product for the Microsoft .NET platform: it provides a framework for mapping an object-oriented domain model to a traditional relational database. Dapper supports most of the relational databases including PostgreSql server.&lt;/p&gt;
 
-&lt;p&gt;is live reoloading works?&lt;/p&gt;</content>
+&lt;p&gt;is live reoloading works?
+yes it works&lt;/p&gt;</content>
 
       
       
@@ -217,6 +218,8 @@
         
       </author>
 
+      
+        <category term="[&quot;tech&quot;]" />
       
 
       
@@ -244,8 +247,8 @@
     <entry>
       <title type="html">Project 1</title>
       <link href="https://satheeshds.github.io/web%20development/2019/07/22/project-1/" rel="alternate" type="text/html" title="Project 1" />
-      <published>2019-07-22T10:44:12+04:00</published>
-      <updated>2019-07-22T10:44:12+04:00</updated>
+      <published>2019-07-22T12:14:12+05:30</published>
+      <updated>2019-07-22T12:14:12+05:30</updated>
       <id>https://satheeshds.github.io/web%20development/2019/07/22/project-1</id>
       <content type="html" xml:base="https://satheeshds.github.io/web%20development/2019/07/22/project-1/">&lt;p&gt;&lt;strong&gt;Hello world&lt;/strong&gt;, this is my first Jekyll blog post.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tempus eget eros eu vulputate. Ut commodo molestie condimentum. Donec condimentum id ipsum quis dictum. Sed quis euismod dolor, vitae vulputate elit. Ut imperdiet viverra dolor, sit amet posuere enim condimentum quis.
 I hope you like it!&lt;/p&gt;</content>
