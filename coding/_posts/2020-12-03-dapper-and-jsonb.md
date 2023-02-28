@@ -2,10 +2,11 @@
 layout: post
 title: Dapper and Jsonb
 date: 2020-12-03 13:10
-category: 
+category: [tech]
 author: 
 tags: [ORM, C#, .Net, dapper, postgresql, jsonb]
 summary: This post is to discuss how we can add postgresql jsonb support over dapper ORM 
+comments: true
 ---
 
 This post is to discuss how we can add PostgreSql Jsonb support over dapper ORM.
