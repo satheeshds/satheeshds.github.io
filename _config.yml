@@ -53,5 +53,5 @@ address:
 # Build settings
 markdown: kramdown
 permalink: pretty
-
+google_analytics: true
 # test
