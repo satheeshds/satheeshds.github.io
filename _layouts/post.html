@@ -2,8 +2,8 @@
 <html>
 {% include head.html %}
 
+{% include nav.html %}
 <body id="page-top" class="index">
-    {% include nav.html %}
     <!-- Header -->
     <header class="header-posts">
         <div class="container">
@@ -11,8 +11,8 @@
                 <div class="col-lg-12">
                     {{content}}
                 </div>
-            </div>
             {% include js_disqus.html %}
+            </div>
         </div>
         {% include google-analytics.html %}
     </header>
