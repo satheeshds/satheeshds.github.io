@@ -1,11 +1,11 @@
 ---
 layout: post
 title: The Narrative Fallacy, Why Our Minds Crave Stories
-date: 2023-03-01 13:44:43 +05:30
+date: 2023-03-01 13:44:43 +0530
 category: [thoughts] 
 author: Satheesh Davidson
 comments: true
-image: ./img/narrative_web.png
+image: /img/narrrative_web.png
 tags: [thoughts, psychology, randomness]
 summary: The narrative fallacy is a term coined by Nassim Taleb to describe our tendency to create stories to explain random events, often leading to flawed thinking and decision-making.
 ---
