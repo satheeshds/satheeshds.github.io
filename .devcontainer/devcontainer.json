@@ -3,11 +3,11 @@
 {
 	"name": "Jekyll",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	//"image": "mcr.microsoft.com/devcontainers/jekyll:0-bullseye",
-	"build": {
-        // Path is relataive to the devcontainer.json file.
-        "dockerfile": "Dockerfile"
-    },
+	"image": "mcr.microsoft.com/devcontainers/jekyll:0-bullseye",
+	//"build": {
+        // Path is relative to the devcontainer.json file.
+    //    "dockerfile": "Dockerfile"
+    //},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
@@ -16,7 +16,8 @@
 	"forwardPorts": [4000],
 
 	// Uncomment the next line to run commands after the container is created.
-	"postCreateCommand": "jekyll --version",
+	//"postCreateCommand": "bundle install",
+	"onCreateCommand": "bundle install",
 
 	// Configure tool-specific properties.
 	"customizations": {
@@ -36,7 +37,9 @@
 				"streetsidesoftware.code-spell-checker",
 				"ms-vscode.wordcount",
 				"rohgarg.jekyll-post",
-				"vscodevim.vim"
+				"vscodevim.vim",
+				"jsynowiec.vscode-insertdatestring",
+				"znck.grammarly"
 			]	
 		}
 	}

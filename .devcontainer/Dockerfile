@@ -10,7 +10,7 @@ ENV LANG=en_US.UTF-8 \
     LANGUAGE=en_US
 
     # Install jekyll
-RUN gem update --system
+#RUN gem update --system
     # Install jekyll
 RUN gem install bundler jekyll
 
