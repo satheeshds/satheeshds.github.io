@@ -5,8 +5,9 @@ date: 2023-03-01 13:44:43 +05:30
 category: [thoughts] 
 author: Satheesh Davidson
 comments: true
+image: ./img/narrative_web.png
 tags: [thoughts, psychology, randomness]
-summary: This post is to discuss how we can create a home server with k8s
+summary: The narrative fallacy is a term coined by Nassim Taleb to describe our tendency to create stories to explain random events, often leading to flawed thinking and decision-making.
 ---
 
 Humans are innate storytellers. From the earliest civilizations, we have used stories to understand and explain the world around us. We tell stories to make sense of our experiences, to connect with others, and to pass on knowledge from one generation to the next. However, while stories can be powerful tools for communication and understanding, they can also lead us astray. The narrative fallacy is a term coined by Nassim Taleb to describe our tendency to create stories to explain random events, often leading to flawed thinking and decision-making. In this blog post, we will explore the concept of narrative fallacy, its implications on our lives, and how to overcome it.
