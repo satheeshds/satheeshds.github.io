@@ -7,6 +7,13 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (or Google search results) and in your feed.xml site description.">
     
+    <!-- linkedin tags-->
+    <meta property="og:title" content="Satheesh Davidson"/>
+    <meta property="og:description" content=""/>
+    <meta property="og:image" content="https://satheeshds.github.io"/>
+    <meta property="og:url" content="https://satheeshds.github.io/"/>
+    <meta property="article:published_time" content="" />
+
     <meta name="keywords" content="your keywords, separated by commas" />
     <meta name="author" content="Satheesh Davidson"> 
     <link rel="icon" type="image/png" href="img/favicon.ico">
@@ -85,10 +92,60 @@
                     <div class="card">
                         <div class="card-body">
                             <div class="card-title">
+                                <h4>Cmder, oh-my-posh, windows-terminal and vs-code</h4>
+                            </div>
+                            <div class="card-text">
+                                <p><img src="/img/cmder1.png" alt="image" /></p>
+
+                            </div>
+                            <div>
+                                <a href="/tech/2023/03/25/cmder-oh-my-posh-widows-terminal-vscode/">Read Blog</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
                                 <h4>The Narrative Fallacy, Why Our Minds Crave Stories</h4>
                             </div>
                             <div class="card-text">
                                 <p>Humans are innate storytellers. From the earliest civilizations, we have used stories to understand and explain the world around us. We tell stories to make sense of our experiences, to connect with others, and to pass on knowledge from one generation to the next. However, while stories can be powerful tools for communication and understanding, they can also lead us astray. The narrative fallacy is a term coined by Nassim Taleb to describe our tendency to create stories to explain random events, often leading to flawed thinking and decision-making. In this blog post, we will explore the concept of narrative fallacy, its implications on our lives, and how to overcome it.</p>
+
+<h2 id="the-dangers-of-narrative-fallacy">The Dangers of Narrative Fallacy</h2>
+
+<p>The narrative fallacy is the human tendency to create stories that fit our beliefs and expectations. We seek patterns and connections, even when they may not exist. This can be dangerous because it causes us to overlook important details or factors that do not fit into our story. As a result, we may make decisions based on incomplete or inaccurate information.</p>
+
+<p>For example, imagine that you have a successful career and a happy family. You may tell yourself a story about how your hard work and talent led to your success and happiness. However, this narrative overlooks the role of luck, timing, and other external factors that may have contributed to your success. Conversely, if you experience a failure or setback, you may create a story that blames external factors rather than acknowledging your mistakes or shortcomings. This can lead to overconfidence in your abilities and an underestimation of the role of chance in your life.</p>
+
+<p>Some other examples can be:</p>
+
+<ul>
+  <li>If someone gets a promotion at work, we may create a story about how their hard work and dedication led to their success while overlooking the role that luck or timing may have played.</li>
+  <li>In one study, researchers found that people who have shown a series of random coin flips were likelier to perceive patterns in the flips if they were told that the flips were part of a more extensive sequence, even if the sequence was random.</li>
+  <li>In the aftermath of the 9/11 attacks, many people created stories that linked the attacks to various unrelated events or individuals, such as Saddam Hussein or the Illuminati.</li>
+  <li>Many people believe the Great Depression was caused by the stock market crash of 1929 when the causes were much more complex and multifaceted.</li>
+  <li>Another example is the so-called “hot hand” in sports. Despite statistical evidence, many athletes and fans believe a player who has made several shots in a row is likelier to make their next shot.</li>
+</ul>
+
+<h2 id="overcoming-narrative-fallacy">Overcoming Narrative Fallacy</h2>
+
+<p>To overcome narrative fallacy, we must be aware of our tendency to create stories and actively seek evidence that challenges our beliefs. We must be willing to revise our understanding of events based on new information and acknowledge the role of chance in our lives. By doing so, we can make better decisions and avoid the pitfalls of flawed thinking.</p>
+
+<p>One way to overcome the narrative fallacy is to practice critical thinking. This involves questioning our assumptions, seeking alternative explanations, and objectively evaluating evidence. We can also seek diverse perspectives and opinions to challenge our biases and assumptions.</p>
+
+<p>Another strategy is to embrace uncertainty and randomness. Instead of seeking patterns and connections, we can acknowledge that many events are random and unpredictable. By doing so, we can avoid creating stories that explain events that may be due to chance.</p>
+
+<h2 id="the-power-of-storytelling">The Power of Storytelling</h2>
+
+<p>Despite the dangers of narrative fallacy, storytelling remains a powerful tool for communication and understanding. Stories can help us make sense of complex information and connect with others on a deeper level. They can inspire, motivate, and help us see the world differently.</p>
+
+<p>However, we must be careful to distinguish between stories based on facts and those simply narratives we create to explain events. We must be willing to question our stories and seek evidence that challenges our beliefs. By doing so, we can ensure that the stories we tell ourselves and others are grounded in reality and not simply the products of our biases and assumptions.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>The narrative fallacy is a common cognitive bias that affects our thinking and decision-making. By becoming aware of our tendency to create stories and actively seeking evidence that challenges our beliefs, we can overcome this bias and make better decisions. While storytelling remains a powerful tool for communication and understanding, we must be careful to distinguish between fact-based stories and those that are simply narratives we create to explain events. By doing so, we can ensure that the stories we tell ourselves and others are grounded in reality and not simply the products of our biases and assumptions.</p>
 
                             </div>
                             <div>
@@ -106,6 +163,144 @@
                             <div class="card-text">
                                 <p>Loved to have exclusive media server for my home, previously used Emby application for the purpose and pretty impressed about it. I had NUC device dedicated to that and with the help of docker i have somehow managed to run the application, but the challenge was using graphics card for Emby, Since NUC have small form factor it does not well support adding graphics card. So i decided to give a chance to device abstraction by using k8s. My thought is create a cluster with NUC as master and join personal laptop to it, which has graphics card, And configure the emby application to have more affinity towards graphics card machine, while other supporting software on NUC. I know managing a k8s cluster for media server is a over kill, but who don’t loves having a challenge and learning opportunity.</p>
 
+<h1 id="install-k8s-on-nuc">Install K8s on NUC</h1>
+<ol>
+  <li>
+    <p>Become root and update and upgrade NUC</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">sudo</span> <span class="nt">-i</span>
+ apt-get update <span class="o">&amp;&amp;</span> apt-get upgrade <span class="nt">-y</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Install vim if you haven’t</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get <span class="nb">install</span> <span class="nt">-y</span> vim
+</code></pre></div>    </div>
+  </li>
+  <li>Install Docker
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> apt-get <span class="nb">install</span> <span class="nt">-y</span> docker.io
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>k8s is not available in Ubuntu’s default repository, so add it manually</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> vim /etc/apt/sources.list.d/kubernetes.list
+</code></pre></div>    </div>
+    <p>add below line to the file</p>
+    <div class="language-vim highlighter-rouge"><div class="highlight"><pre class="highlight"><code> deb http<span class="p">:</span><span class="sr">//</span>apt<span class="p">.</span>kubernetes<span class="p">.</span>io/ kubernetes<span class="p">-</span>xenial main
+</code></pre></div>    </div>
+    <p>Add a GPG key for the packages. This will return OK.</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> curl <span class="nt">-s</span> https://packages.cloud.google.com/apt/doc/apt-key.gpg | apt-key add -
+</code></pre></div>    </div>
+    <p>update with the new repo, which will download repo info.</p>
+  </li>
+  <li>Install k8s software.
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> apt-get <span class="nb">install</span> <span class="nt">-y</span> <span class="nv">kubeadm</span><span class="o">=</span>1.21.0-00 <span class="nv">kubelet</span><span class="o">=</span>1.21.0-00 <span class="nv">kubectl</span><span class="o">=</span>1.21.0-00
+ apt-mark hold kubelet kubeadm kubectl
+</code></pre></div>    </div>
+  </li>
+  <li>Create configuration file for cluster
+    <ol>
+      <li>
+        <p>Create alias for the master node</p>
+
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> vim /etc/hosts
+
+ add this line, by replacing ip address with your server ip.
+ &lt;ipaddress of the master&gt; k8smaster
+</code></pre></div>        </div>
+      </li>
+      <li>
+        <p>Configure networking settings
+  There can be only one pos network per cluster, we will use Calico as a network plugin. Currently Calico does not deploy using CNI by default.</p>
+
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  wget https://docs.projectcalico.org/manifests/calico.yaml
+</code></pre></div>        </div>
+
+        <p>Adjust the network CIDR as per requirement.</p>
+
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  vim calico.yaml
+</code></pre></div>        </div>
+
+        <p>There are many different configuration settings in this file. The <strong>CALICO_IPV4POOL_CIDR</strong> must match the value given to <strong>kubeadm init</strong> in the following step, and avoid conflicts with existing IP ranges of the nodes.</p>
+
+        <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>        
+      <span class="c1"># The default IPv4 pool to create on startup if none exists. Pod IPs will be</span>
+      <span class="c1"># chosen from this range. Changing this value after installation will have</span>
+      <span class="c1"># no effect. This should fall within `--cluster-cidr`.</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">CALICO_IPV4POOL_CIDR</span>
+        <span class="na">value</span><span class="pi">:</span> <span class="s2">"</span><span class="s">192.168.1.0/16"</span>
+
+</code></pre></div>        </div>
+      </li>
+      <li>
+        <p>Create cluster config</p>
+
+        <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  vim kubeadm-config.yaml
+</code></pre></div>        </div>
+
+        <p>add the following settings to the file.</p>
+
+        <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="na">apiVersion</span><span class="pi">:</span> <span class="s">kubeadm.k8s.io/v1beta2</span>
+  <span class="na">kind</span><span class="pi">:</span> <span class="s">ClusterConfiguration</span>
+  <span class="na">kubernetesVersion</span><span class="pi">:</span> <span class="s">1.21.0</span>
+  <span class="na">controlPlaneEndpoint</span><span class="pi">:</span> <span class="s2">"</span><span class="s">k8smaster:6443"</span>  <span class="c1">#&lt;-- Use the node alias </span>
+  <span class="na">networking</span><span class="pi">:</span>
+    <span class="na">podSubnet</span><span class="pi">:</span> <span class="s">192.168.1.0/16</span>             <span class="c1">#&lt;-- Match the IP range from the Calico config file</span>
+</code></pre></div>        </div>
+      </li>
+    </ol>
+  </li>
+  <li>
+    <p>Initialize the master.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> kubeadm init <span class="nt">--config</span><span class="o">=</span>kubeadm-config.yaml <span class="nt">--upload-certs</span> | <span class="nb">tee </span>kubeadm-init.out
+</code></pre></div>    </div>
+
+    <p>This may return error as docker not running</p>
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ERROR: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+
+ <span class="c"># Start the docker daemon</span>
+ systemctl start docker.service
+
+ <span class="c"># Initialize again</span>
+ kubeadm init <span class="nt">--config</span><span class="o">=</span>kubeadm-config.yaml <span class="nt">--upload-certs</span> | <span class="nb">tee </span>kubeadm-init.out
+</code></pre></div>    </div>
+
+    <p>There may be another error can happen if swap is on</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">sudo </span>swapoff <span class="nt">-a</span>
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Allow a non-root user admin level access to the cluster.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">mkdir</span> <span class="nt">-p</span> <span class="nv">$HOME</span>/.kube
+ <span class="nb">sudo cp</span> <span class="nt">-i</span> /etc/kubernetes/admin.conf <span class="nv">$HOME</span>/.kube/config
+ <span class="nb">sudo chown</span> <span class="si">$(</span><span class="nb">id</span> <span class="nt">-u</span><span class="si">)</span>:<span class="si">$(</span><span class="nb">id</span> <span class="nt">-g</span><span class="si">)</span> <span class="nv">$HOME</span>/.kube/config
+
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Apply the network configuration</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code> <span class="nb">sudo cp</span> /root/calico.yaml <span class="nb">.</span>
+ kubectl apply <span class="nt">-f</span> calico.yaml
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Enable bash auto-completion.</p>
+
+    <div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">sudo </span>apt-get <span class="nb">install </span>bash-completion <span class="nt">-y</span>
+
+<span class="nb">source</span> &lt;<span class="o">(</span>kubectl completion bash<span class="o">)</span>
+
+<span class="nb">echo</span> <span class="s2">"source &lt;(kubectl completion bash)"</span> <span class="o">&gt;&gt;</span> <span class="nv">$HOME</span>/.bashrc
+</code></pre></div>    </div>
+  </li>
+</ol>
+
                             </div>
                             <div>
                                 <a href="/tech/2021/05/08/home-media-server-with-k8s/">Read Blog</a>
@@ -121,6 +316,11 @@
                             </div>
                             <div class="card-text">
                                 <p>This post is to discuss how we can add PostgreSql Jsonb support over dapper ORM.</p>
+
+<p><a href="https://dapper-tutorial.net/dapper">Dapper ORM</a> is an object-relational mapping product for the Microsoft .NET platform: it provides a framework for mapping an object-oriented domain model to a traditional relational database. Dapper supports most of the relational databases including PostgreSql server.</p>
+
+<p>is live reoloading works?
+yes it works</p>
 
                             </div>
                             <div>
@@ -154,6 +354,19 @@ I hope you like it!</p>
                             </div>
                             <div class="card-text">
                                 <p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>
+
 
                             </div>
                             <div>
