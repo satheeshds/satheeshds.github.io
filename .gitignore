@@ -6,3 +6,5 @@ _site/*
 .jekyll-metadata
 .bundle/*
 vendor/*
+_site/feed.xml
+_site/index.xml
