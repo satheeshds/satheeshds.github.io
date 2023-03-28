@@ -6,7 +6,7 @@ category: [tech]
 author: Satheesh Davidson
 comments: true
 image: /img/cmder.png
-tags: [tech, shell, Cmder, oh-my-posh, windows-terminal, vs-code]
+tags: [tech, shell, cmder, oh-my-posh, windows-terminal, vs-code]
 summary: Beautifying Cmder application with oh-my-posh and integrate it with windows terminal and vs-code.
 ---
 

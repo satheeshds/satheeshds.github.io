@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
-
 <body id="page-top" class="index">
     {% include nav.html %}
     <!-- Header -->
@@ -21,6 +20,9 @@
                             </div>
                             <div>
                                 <a href="{{ post.url }}">Read Blog</a>
+                                <p>{{ post.date | date: "%b %-d, %Y" }}, {% include read_time.html %} </p>
+                                <p><i class="fa fa-tag"></i>{{ post.tags | array_to_sentence_string}}</p>
+                                
                             </div>
                         </div>
 
